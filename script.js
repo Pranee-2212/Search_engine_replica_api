@@ -58,8 +58,8 @@ const displayResults = (results) => {
     results.forEach(result => {
         const resultElement = document.createElement('div');
         resultElement.innerHTML = `
-            <h2><a href="${result.link}" target="_blank">${result.title}</a></h2>
-            <p>${result.snippet}</p>
+            <h2><a href="${result.link}" target="_blank" class="heading">${result.title}</a></h2>
+            <p  class="desc">${result.snippet}</p>
         `;
         resultsDiv.appendChild(resultElement);
     });
