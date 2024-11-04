@@ -1,7 +1,7 @@
 .row_1{
     height:30vh;
     width: 100vw;
-    background-image: url("banner.jpg");
+    background-image: url("resources/banner.jpg");
     background-size:contain;
 
     background-position:center;
