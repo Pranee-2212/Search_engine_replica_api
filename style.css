@@ -1,7 +1,7 @@
 .main{
     height: 100vh;
     width: 100vw;
-    background-image:url("ironman.jpg");
+    background-image:url("resources/ironman.jpg");
     background-size: cover;
     background-position: center;
     align-items: center;
